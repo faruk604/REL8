@@ -1,0 +1,75 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+
+  (uuid 4c897a82-774e-456c-82db-53cd258c091f)
+
+  (paper "A4")
+  (title_block
+    (title "REL8 - 8 Kanal Röle Modülü")
+    (rev "Taslak")
+    (comment 1 "Kavramsal blok şeması; elektriksel devre değildir.")
+  )
+
+  (lib_symbols)
+
+  (rectangle
+    (start 25 75)
+    (end 80 100)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+    (uuid e7b1fe9f-79fb-480d-9f4f-4b6ff28d67b2)
+  )
+  (rectangle
+    (start 120 75)
+    (end 175 100)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+    (uuid d5722b84-23e4-484d-bdbc-0b1bcbe01753)
+  )
+  (rectangle
+    (start 215 75)
+    (end 270 100)
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+    (uuid 1dd1365d-4c10-4f84-b9f0-d6c24d941d8b)
+  )
+
+  (polyline
+    (pts (xy 80 87.5) (xy 120 87.5))
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+    (uuid a03b0993-cdb3-42e5-b856-380982a11439)
+  )
+  (polyline
+    (pts (xy 175 87.5) (xy 215 87.5))
+    (stroke (width 0.254) (type default))
+    (fill (type none))
+    (uuid 905af004-80c3-4f0e-8ee8-2303b1172df3)
+  )
+
+  (text "Haberleşme arayüzü"
+    (at 52.5 87.5 0)
+    (effects (font (size 1.5 1.5)))
+    (uuid 3e835b01-339d-4aac-aea5-deb4256068eb)
+  )
+  (text "Kontrol"
+    (at 147.5 87.5 0)
+    (effects (font (size 1.5 1.5)))
+    (uuid e87a024d-78a2-4516-b5e0-1c9bc7518595)
+  )
+  (text "8 kanal röle çıkışı"
+    (at 242.5 87.5 0)
+    (effects (font (size 1.5 1.5)))
+    (uuid f21ce45d-346f-40c8-bdcb-89844837fcd1)
+  )
+  (text "TASLAK: Bileşenler, bağlantılar ve besleme henüz belirlenmedi."
+    (at 147.5 120 0)
+    (effects (font (size 1.5 1.5)))
+    (uuid d0a4016c-e69f-4d58-a576-9d3dc61a16c5)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
